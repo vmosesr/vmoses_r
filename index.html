@@ -270,9 +270,9 @@
                 </div>
                 
                 <div class="col-lg-6">
-                    <div class="card border-0 shadow-sm h-100">
-                        <div class="card-body">
-                            <h3 class="card-title">Professional Summary</h3>
+                    <div class="about card border-0 shadow-sm h-100">
+                        <div class="about card-body">
+                            <h3 class="about card-title">Professional Summary</h3>
                             <p>The TSUAD LLC has benefited from my expertise in software development and machine learning algorithms, reflecting a penchant for technological innovation and collaborative problem-solving. My recent tenure as a freelancer has further polished my competencies in web design and development, enabling me to deliver user-centric digital solutions.</p>
                             <p>At the heart of my professional journey is a commitment to excellence and a relentless pursuit of quality. With the help of my team at TSUAD LLC, we've successfully optimized application performance, ensuring that our software applications not only meet but exceed user expectations.</p>
                             
@@ -386,7 +386,6 @@
 
     <!-- Experience Section -->
     <section id="experience" class="py-5 position-relative" style="background: var(--gradient); overflow: hidden;">
-        <!-- Animated SVG Background -->
         <div class="position-absolute top-0 start-0 w-100 h-100 opacity-10">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -398,129 +397,137 @@
                 <animateTransform attributeName="transform" type="translate" from="0 0" to="20 20" dur="20s" repeatCount="indefinite"/>
             </svg>
         </div>
-        
-        <div class="container py-5 position-relative">
+
+        <div class="timeline container py-5 position-relative">
             <div class="text-center mb-5">
                 <h2 class="section-title text-light">Professional Experience</h2>
                 <div class="divider mx-auto bg-secondary" style="width: 80px; height: 3px;"></div>
             </div>
-            
-            <ul class="timeline">
-                <!-- Job 1 -->
-                <li class="timeline-item">
-                    <div class="timeline-badge bg-secondary"></div>
-                    <div class="timeline-panel bg-white rounded shadow-sm">
-                        <h4 class="text-primary">Software Developer</h4>
-                        <h5 class="text-dark">TSUAD LLC</h5>
-                        <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Sep 2024 - Present · 9 mos | Tanzania · Remote</p>
-                        <p class="text-dark">Working as a Software Developer at TSUAD Support in ICT, I excelled in understanding client needs and competition landscapes. I effectively met client requirements and contributed to the company's success.</p>
-                        <div class="mt-3">
-                            <span class="skill-badge bg-primary text-white">PHP</span>
-                            <span class="skill-badge bg-secondary text-white">Software Design</span>
-                            <span class="skill-badge bg-primary text-white">Machine Learning</span>
-                        </div>
-                    </div>
-                </li>
-                
-                <!-- Job 2 -->
-                <li class="timeline-item timeline-inverted">
-                    <div class="timeline-badge bg-secondary"></div>
-                    <div class="timeline-panel bg-white rounded shadow-sm">
-                        <h4 class="text-primary">Graphics Designer</h4>
-                        <h5 class="text-dark">Tanzania herbal clinic · Part-time</h5>
-                        <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Feb 2024 - Jul 2024 · 6 mos | Mbeya Region, Tanzania · Remote</p>
-                        <p class="text-dark">As a graphics designer at Tanzania herbal clinic, I was responsible for developing creative concepts and design solutions for various projects, including branding, marketing materials, and digital assets.</p>
-                        <div class="mt-3">
-                            <span class="skill-badge bg-primary text-white">Creative Concept Design</span>
-                            <span class="skill-badge bg-secondary text-white">Graphics Layout</span>
-                            <span class="skill-badge bg-primary text-white">Branding</span>
-                        </div>
-                    </div>
-                </li>
-                
-                <!-- Job 3 -->
-                <li class="timeline-item">
-                    <div class="timeline-badge bg-secondary"></div>
-                    <div class="timeline-panel bg-white rounded shadow-sm">
-                        <h4 class="text-primary">Software Developer</h4>
-                        <h5 class="text-dark">CODASA Academy · Freelance</h5>
-                        <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Jan 2022 - Apr 2024 · 2 yrs 4 mos | Mbeya Region, Tanzania · Remote</p>
-                        <p class="text-dark">In my role as a Software Developer at CODASA Academy, I worked closely with a talented team to develop and test software applications, ensuring optimal performance.</p>
-                        <div class="mt-3">
-                            <span class="skill-badge bg-primary text-white">Code Review</span>
-                            <span class="skill-badge bg-secondary text-white">Team Coordination</span>
-                            <span class="skill-badge bg-primary text-white">JavaScript</span>
-                        </div>
-                    </div>
-                </li>
-                
-                <!-- Job 4 -->
-                <li class="timeline-item timeline-inverted">
-                    <div class="timeline-badge bg-secondary"></div>
-                    <div class="timeline-panel bg-white rounded shadow-sm">
-                        <h4 class="text-primary">Professional Freelancer</h4>
-                        <h5 class="text-dark">Full-time</h5>
-                        <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Nov 2018 - Aug 2024 · 5 yrs 10 mos | Tanzania · On-site</p>
-                        <p class="text-dark">Crafting data-driven proposals at TSUAD Support in ICT, I excel in understanding client needs and competition landscapes to deliver high-quality insights.</p>
-                        <ul class="ps-3 mb-0 text-dark">
-                            <li>Analyzed client requirements to tailor proposals that meet specific needs.</li>
-                            <li>Collaborated with cross-functional teams to ensure proposals are comprehensive and impactful.</li>
-                        </ul>
-                        <div class="mt-3">
-                            <span class="skill-badge bg-primary text-white">Freelancing</span>
-                            <span class="skill-badge bg-secondary text-white">Project Management</span>
-                            <span class="skill-badge bg-primary text-white">Web Development</span>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <div class="timeline-badge bg-secondary"><i class="fas fa-briefcase"></i></div>
+                            <div class="timeline-panel bg-white rounded shadow-sm">
+                                <h4 class="text-primary">Software Developer</h4>
+                                <h5 class="text-dark">TSUAD LLC</h5>
+                                <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Sep 2024 - Present · 9 mos | Tanzania · Remote</p>
+                                <p class="text-dark">Working as a Software Developer at TSUAD Support in ICT, I excelled in understanding client needs and competition landscapes. I effectively met client requirements and contributed to the company's success.</p>
+                                <div class="mt-3">
+                                    <span class="skill-badge bg-primary text-white">PHP</span>
+                                    <span class="skill-badge bg-secondary text-white">Software Design</span>
+                                    <span class="skill-badge bg-primary text-white">Machine Learning</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item timeline-inverted">
+                            <div class="timeline-badge bg-secondary"><i class="fas fa-palette"></i></div>
+                            <div class="timeline-panel bg-white rounded shadow-sm">
+                                <h4 class="text-primary">Graphics Designer</h4>
+                                <h5 class="text-dark">Tanzania herbal clinic · Part-time</h5>
+                                <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Feb 2024 - Jul 2024 · 6 mos | Mbeya Region, Tanzania · Remote</p>
+                                <p class="text-dark">As a graphics designer at Tanzania herbal clinic, I was responsible for developing creative concepts and design solutions for various projects, including branding, marketing materials, and digital assets.</p>
+                                <div class="mt-3">
+                                    <span class="skill-badge bg-primary text-white">Creative Concept Design</span>
+                                    <span class="skill-badge bg-secondary text-white">Graphics Layout</span>
+                                    <span class="skill-badge bg-primary text-white">Branding</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item">
+                            <div class="timeline-badge bg-secondary"><i class="fas fa-code"></i></div>
+                            <div class="timeline-panel bg-white rounded shadow-sm">
+                                <h4 class="text-primary">Software Developer</h4>
+                                <h5 class="text-dark">CODASA Academy · Freelance</h5>
+                                <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Jan 2022 - Apr 2024 · 2 yrs 4 mos | Mbeya Region, Tanzania · Remote</p>
+                                <p class="text-dark">In my role as a Software Developer at CODASA Academy, I worked closely with a talented team to develop and test software applications, ensuring optimal performance.</p>
+                                <div class="mt-3">
+                                    <span class="skill-badge bg-primary text-white">Code Review</span>
+                                    <span class="skill-badge bg-secondary text-white">Team Coordination</span>
+                                    <span class="skill-badge bg-primary text-white">JavaScript</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item timeline-inverted">
+                            <div class="timeline-badge bg-secondary"><i class="fas fa-user-tie"></i></div>
+                            <div class="timeline-panel bg-white rounded shadow-sm">
+                                <h4 class="text-primary">Professional Freelancer</h4>
+                                <h5 class="text-dark">Full-time</h5>
+                                <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Nov 2018 - Aug 2024 · 5 yrs 10 mos | Tanzania · On-site</p>
+                                <p class="text-dark">Crafting data-driven proposals at TSUAD Support in ICT, I excel in understanding client needs and competition landscapes to deliver high-quality insights.</p>
+                                <ul class="ps-3 mb-0 text-dark">
+                                    <li>Analyzed client requirements to tailor proposals that meet specific needs.</li>
+                                    <li>Collaborated with cross-functional teams to ensure proposals are comprehensive and impactful.</li>
+                                </ul>
+                                <div class="mt-3">
+                                    <span class="skill-badge bg-primary text-white">Freelancing</span>
+                                    <span class="skill-badge bg-secondary text-white">Project Management</span>
+                                    <span class="skill-badge bg-primary text-white">Web Development</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 position-relative bg-light" style="overflow: hidden;">
-        <!-- Animated SVG Background -->
+    <section id="projects" class="py-5 position-relative" style="background: #222; overflow: hidden;">
         <div class="position-absolute top-0 start-0 w-100 h-100 opacity-05">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 <defs>
-                    <pattern id="squares" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="30" height="30" fill="var(--primary)" opacity="0.3"></rect>
+                    <pattern id="dotPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <circle cx="10" cy="10" r="1.5" fill="#444" fill-opacity="0.6"></circle>
+                        <circle cx="30" cy="10" r="1.5" fill="#444" fill-opacity="0.6"></circle>
+                        <circle cx="10" cy="30" r="1.5" fill="#444" fill-opacity="0.6"></circle>
+                        <circle cx="30" cy="30" r="1.5" fill="#444" fill-opacity="0.6"></circle>
                     </pattern>
                 </defs>
-                <rect width="100%" height="100%" fill="url(#squares)"></rect>
-                <animateTransform attributeName="transform" type="translate" from="0 0" to="30 30" dur="25s" repeatCount="indefinite"/>
+                <rect width="100%" height="100%" fill="url(#dotPattern)"></rect>
+                <animateTransform 
+                    attributeName="transform" 
+                    type="translate" 
+                    from="0 0" 
+                    to="40 40" 
+                    dur="60s" 
+                    repeatCount="indefinite"
+                />
             </svg>
         </div>
-        
+
         <div class="container py-5 position-relative">
-            <h2 class="section-title mb-5 text-center">
+            <h2 class="section-title mb-5 text-center text-light">
                 <span class="position-relative">
                     Featured Projects
-                    <span class="position-absolute bottom-0 start-50 translate-middle-x bg-secondary" style="width: 80px; height: 3px;"></span>
+                    <span class="position-absolute bottom-0 start-50 translate-middle-x bg-gray-600" style="width: 80px; height: 3px;"></span>
                 </span>
             </h2>
-            
+
             <div class="row g-4">
                 <div class="col-lg-6">
-                    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-left: 4px solid var(--secondary)!important;">
-                        <div class="card-body">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden bg-dark text-light" style="border-left: 4px solid #6c757d !important;">
+                        <div class="card-body d-flex flex-column">
                             <h3 class="card-title text-primary">NatureMeds Store</h3>
                             <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Feb 2025 - Present | Associated with TSUAD LLC</p>
                             <p class="card-text">NatureMeds Store is an online platform designed to connect natural herbal doctors across Africa, allowing users to compare services, purchase herbal products, and access shipping services. This platform aims to bridge the gap between herbal practitioners and customers seeking natural remedies, ensuring authenticity, convenience, and accessibility.</p>
-                            <div class="mt-3">
+                            <div class="mt-3" style="margin-bottom: 2rem;">
                                 <span class="skill-badge bg-primary text-white">JavaScript</span>
                                 <span class="skill-badge bg-secondary text-white">Laravel</span>
                                 <span class="skill-badge bg-primary text-white">AWS</span>
                                 <span class="skill-badge bg-secondary text-white">MySQL</span>
                             </div>
-                            <a href="#" class="btn btn-primary mt-3" style="background: var(--secondary); border-color: var(--secondary);">View Project</a>
+                            <a href="#" class="btn btn-outline-light mt-auto" style="border-color: #6c757d;">View Project</a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-6">
-                    <div class="card h-100 border-0 shadow-sm overflow-hidden" style="border-left: 4px solid var(--primary)!important;">
-                        <div class="card-body">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden bg-dark text-light" style="border-left: 4px solid #007bff !important;">
+                        <div class="card-body d-flex flex-column">
                             <h3 class="card-title text-primary">AI Ethics and Responsible Innovation Framework</h3>
                             <p class="text-muted"><i class="far fa-calendar-alt text-secondary me-2"></i>Jan 2024 - Present | Associated with TSUAD Support in ICT</p>
                             <p class="card-text">Introduction to a framework for responsible AI innovation. That includes emphasizing ethical considerations, privacy protection, and transparency in the development and deployment of AI technologies.</p>
@@ -529,12 +536,12 @@
                                 <li>Build trust with stakeholders</li>
                                 <li>Contribute to the responsible use of artificial intelligence</li>
                             </ul>
-                            <div class="mt-2">
+                            <div class="mt-2" style="margin-bottom: 2rem;">
                                 <span class="skill-badge bg-primary text-white">PHP</span>
                                 <span class="skill-badge bg-secondary text-white">Machine Learning</span>
                                 <span class="skill-badge bg-primary text-white">Ethical AI</span>
                             </div>
-                            <a href="#" class="btn btn-primary mt-3" style="background: var(--secondary); border-color: var(--secondary);">View Project</a>
+                            <a href="#" class="btn btn-outline-light mt-auto" style="border-color: #007bff;">View Project</a>
                         </div>
                     </div>
                 </div>
