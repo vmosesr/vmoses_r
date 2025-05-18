@@ -217,6 +217,10 @@ body {
     justify-content: flex-start;
   }
 
+  .hero-skills-item i{
+        font-size: 1rem;
+    }
+
   .hero-overlay {
     flex-direction: column;
     justify-content: flex-start;
