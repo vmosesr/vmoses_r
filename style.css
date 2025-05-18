@@ -218,7 +218,11 @@ body {
   }
 
   .hero-skills-item i{
-        font-size: 1rem;
+        font-size: .5rem;
+    }
+
+    .hero-skills-item P{
+        display: none;
     }
 
   .hero-overlay {
