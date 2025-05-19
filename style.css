@@ -1300,3 +1300,24 @@ body {
         margin-bottom: 20px;
     }
 }
+
+/* footer ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* footer ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* footer ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* footer ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* footer ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bottom-text {
+    font-size: 1em;
+    margin-top: 10px;
+  }
