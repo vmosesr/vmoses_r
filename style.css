@@ -70,10 +70,11 @@ body {
     position: relative;
 }
 
-.nav-links a:hover,
-.nav-links a.active {
+.nav-links a:hover {
     background-color: var(--primary-color);
     color: white;
+}.nav-links a.active{
+    border: 2px solid var(--primary-color);
 }
 
 .contact-btn {
