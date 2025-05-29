@@ -24,219 +24,128 @@
 </head>
 <body>
 
-    <!-- Naviagation pane -->   
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <a class="navbar- navbar-brand" href="#">
-                <img src="create a tech avatar for Instagram display picture that is a little teenager.png" alt="Brand Logo">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                JOSEPHAT NDUNGURU
+                <span>Software Developer</span>
             </a>
             
-            <button class="custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <ul class="nav-links">
+                <li><a href="#portfolio" class="active">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </ul>
             
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar- navbar-nav">
-                        <li class="navbar- nav-item">
-                            <a class="navbar- nav-link active" aria-current="page" href="#experience">Experience</a>
-                        </li>
-                        <li class="navbar- nav-item">
-                            <a class="navbar- nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="navbar- nav-item">
-                            <a class="navbar- nav-link" href="#featured-projects">Projects</a>
-                        </li>
-                        <li class="navbar- nav-item">
-                            <a class="navbar- nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero-section">
-        <div class="hero-background-image">
-            <img src="jayanth-muppaneni-j3hJJXD-w3o-unsplash.jpg" alt="">
-        </div>
-        <div class="hero-overlay">
-            <div class="hero-contents-left">
-                <p class="hero-header">
-                    JOSEPHAT MOSES NDUNGURU
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1>Brand Identity and Online Presence</h1>
+                <p class="hero-subtitle">JOSEPHAT MOSES NDUNGURU</p>
+                <p class="hero-description">
+                    Over the past 3 years, as a Software Developer & Designer, I've worked with companies and up-and-coming startups to help them reach their full potential and attract new customers.
                 </p>
-                <h1 class="hero-descrition">Software Developer</h1>
-                <div class="hero-skills-frameworks">
-                    <div class="hero-skills-item">
-                        <i class="fa-brands fa-laravel"></i>
-                        <p>Laravel</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary-custom">
+                        View Projects
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="btn-outline-custom">Read About Me</a>
+                </div>
+                
+                <div class="hero-skills">
+                    <div class="skill-item">
+                        <i class="fab fa-laravel"></i>
+                        <span>Laravel</span>
                     </div>
-                    <div class="hero-skills-item">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <p>CSS</p>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
                     </div>
-                    <div class="hero-skills-item">
-                        <i class="fa-brands fa-js"></i>
-                        <p>JavaScript</p>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
                     </div>
-                    <div class="hero-skills-item">
-                        <i class="fa-brands fa-react"></i>
-                        <p>React</p>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
                     </div>
                 </div>
             </div>
-            <div class="hero-contents-right">
-                <a href="https://www.linkedin.com/in/josephat-ndunguru-09694b173/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://wa.me/255621076315"><i class="fab fa-whatsapp"></i></a>
+            
+            <div class="hero-right">
+                <div class="profile-container">
+                    <!-- Replace this placeholder with your actual photo -->
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/josephat-ndunguru-09694b173/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://wa.me/255621076315" class="social-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="on-media-hero-contents-right">
-            <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services-section">
-    
-        <div class="services-background">
-            <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice">
-                <defs>
-                    <linearGradient id="services-gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1a2a6c">
-                            <animate attributeName="stop-color" values="#1a2a6c; #4a54b1; #1a2a6c" dur="10s" repeatCount="indefinite" />
-                        </stop>
-                        <stop offset="50%" stop-color="#b21f1f">
-                            <animate attributeName="stop-color" values="#b21f1f; #4a0845; #b21f1f" dur="10s" repeatCount="indefinite" />
-                        </stop>
-                        <stop offset="100%" stop-color="#fdbb2d">
-                            <animate attributeName="stop-color" values="#fdbb2d; #22c1c3; #fdbb2d" dur="10s" repeatCount="indefinite" />
-                        </stop>
-                    </linearGradient>
-                    
-                    <linearGradient id="services-gradient-2" x1="100%" y1="0%" x2="0%" y2="100%">
-                        <stop offset="0%" stop-color="#4a54b1">
-                            <animate attributeName="stop-color" values="#4a54b1; #1a2a6c; #4a54b1" dur="8s" repeatCount="indefinite" />
-                        </stop>
-                        <stop offset="100%" stop-color="#22c1c3">
-                            <animate attributeName="stop-color" values="#22c1c3; #fdbb2d; #22c1c3" dur="8s" repeatCount="indefinite" />
-                        </stop>
-                    </linearGradient>
-    
-                    <pattern id="services-circuit" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
-                        <path d="M50 10 L150 10 L150 50 L190 50" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="1">
-                            <animate attributeName="stroke-dasharray" values="0,200; 200,0" dur="4s" repeatCount="indefinite" />
-                        </path>
-                        <path d="M10 50 L50 50 L50 150 L100 150 L100 100" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="1">
-                            <animate attributeName="stroke-dasharray" values="0,200; 200,0" dur="5s" repeatCount="indefinite" />
-                        </path>
-                        <path d="M190 100 L150 100 L150 190" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="1">
-                            <animate attributeName="stroke-dasharray" values="0,200; 200,0" dur="6s" repeatCount="indefinite" />
-                        </path>
-                        <path d="M10 150 L10 190 L90 190" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="1">
-                            <animate attributeName="stroke-dasharray" values="0,200; 200,0" dur="7s" repeatCount="indefinite" />
-                        </path>
-                        <circle cx="50" cy="50" r="3" fill="rgba(255,255,255,0.2)">
-                            <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite" />
-                        </circle>
-                        <circle cx="150" cy="50" r="3" fill="rgba(255,255,255,0.2)">
-                            <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" />
-                        </circle>
-                        <circle cx="100" cy="100" r="3" fill="rgba(255,255,255,0.2)">
-                            <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite" />
-                        </circle>
-                        <circle cx="150" cy="150" r="3" fill="rgba(255,255,255,0.2)">
-                            <animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite" />
-                        </circle>
-                        <circle cx="50" cy="150" r="3" fill="rgba(255,255,255,0.2)">
-                            <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite" />
-                        </circle>
-                    </pattern>
-                </defs>
-                
-                <rect x="0" y="0" width="100%" height="100%" fill="url(#services-gradient-1)" />
-                
-                <rect x="0" y="0" width="100%" height="100%" fill="url(#services-circuit)" opacity="0.4">
-                    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="10s" repeatCount="indefinite" />
-                </rect>
-                
-                <path d="M0,160 C320,300,420,300,800,100 C1200,-100,1500,300,1920,180 V600 H0 Z" fill="url(#services-gradient-2)" opacity="0.3">
-                    <animate attributeName="d" 
-                        values="M0,160 C320,300,420,300,800,100 C1200,-100,1500,300,1920,180 V600 H0 Z;
-                                M0,200 C320,100,420,400,800,200 C1200,100,1500,200,1920,100 V600 H0 Z;
-                                M0,160 C320,300,420,300,800,100 C1200,-100,1500,300,1920,180 V600 H0 Z" 
-                        dur="20s" 
-                        repeatCount="indefinite" 
-                    />
-                </path>
-                
-                <path d="M0,180 C320,200,420,100,800,300 C1200,500,1500,100,1920,250 V600 H0 Z" fill="url(#services-gradient-2)" opacity="0.2">
-                    <animate attributeName="d" 
-                        values="M0,180 C320,200,420,100,800,300 C1200,500,1500,100,1920,250 V600 H0 Z;
-                                M0,230 C320,400,420,300,800,150 C1200,300,1500,400,1920,300 V600 H0 Z;
-                                M0,180 C320,200,420,100,800,300 C1200,500,1500,100,1920,250 V600 H0 Z" 
-                        dur="15s" 
-                        repeatCount="indefinite" 
-                    />
-                </path>
-                
-                <circle cx="20%" cy="30%" r="5" fill="white" opacity="0.5">
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite" />
-                    <animate attributeName="r" values="5;8;5" dur="4s" repeatCount="indefinite" />
-                </circle>
-                
-                <circle cx="70%" cy="20%" r="6" fill="white" opacity="0.5">
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite" />
-                    <animate attributeName="r" values="6;10;6" dur="5s" repeatCount="indefinite" />
-                </circle>
-                
-                <circle cx="85%" cy="60%" r="4" fill="white" opacity="0.5">
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite" />
-                </circle>
-                
-                <circle cx="30%" cy="70%" r="7" fill="white" opacity="0.5">
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite" />
-                    <animate attributeName="r" values="7;12;7" dur="6s" repeatCount="indefinite" />
-                </circle>
-            </svg>
-        </div>
-    
-        <div class="services-shape services-shape-1">
-            <svg width="50" height="50" viewBox="0 0 100 100">
-                <polygon points="50 0, 100 50, 50 100, 0 50" fill="rgba(255,255,255,0.3)" />
-            </svg>
-        </div>
-        
-        <div class="services-shape services-shape-2">
-            <svg width="70" height="70" viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="50" fill="rgba(255,255,255,0.3)" />
-            </svg>
-        </div>
-        
-        <div class="services-shape services-shape-3">
+        <div class="floating-element floating-element-1">
             <svg width="60" height="60" viewBox="0 0 100 100">
-                <rect width="100" height="100" fill="rgba(255,255,255,0.3)" />
+                <polygon points="50 0, 100 50, 50 100, 0 50" fill="currentColor" />
             </svg>
         </div>
         
-        <div class="services-shape services-shape-4">
+        <div class="floating-element floating-element-2">
             <svg width="80" height="80" viewBox="0 0 100 100">
-                <polygon points="0 0, 100 0, 100 100" fill="rgba(255,255,255,0.3)" />
+                <circle cx="50" cy="50" r="50" fill="currentColor" />
             </svg>
         </div>
-    
+        
+        <div class="floating-element floating-element-3">
+            <svg width="70" height="70" viewBox="0 0 100 100">
+                <rect width="100" height="100" rx="20" fill="currentColor" />
+            </svg>
+        </div>
+        
+        <div class="floating-element floating-element-4">
+            <svg width="90" height="90" viewBox="0 0 100 100">
+                <polygon points="0 0, 100 0, 50 100" fill="currentColor" />
+            </svg>
+        </div>
+
         <div class="container">
             <div class="services-header">
                 <h2 class="services-main-title">Available Services</h2>
                 <p class="services-subtitle">We provide comprehensive digital solutions to help your business grow and succeed in today's competitive market.</p>
             </div>
-    
+
             <div class="row services-grid">
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="services-card services-card-1">
@@ -247,17 +156,17 @@
                         <p class="services-description">Creating visually compelling designs that communicate your brand message effectively across various media.</p>
                     </div>
                 </div>
-    
+
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="services-card services-card-2">
                         <div class="services-icon">
-                            <i class="fas fa-user-experience"></i>
+                            <i class="fas fa-pencil-ruler"></i>
                         </div>
                         <h3 class="services-title">User Experience Design</h3>
                         <p class="services-description">Designing intuitive and engaging user interfaces that enhance user satisfaction and accessibility.</p>
                     </div>
                 </div>
-    
+
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="services-card services-card-3">
                         <div class="services-icon">
@@ -267,7 +176,7 @@
                         <p class="services-description">Building responsive, high-performance websites and web applications using modern technologies.</p>
                     </div>
                 </div>
-    
+
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="services-card services-card-4">
                         <div class="services-icon">
@@ -277,7 +186,7 @@
                         <p class="services-description">Developing systems to efficiently organize, store, and retrieve information for optimal business operations.</p>
                     </div>
                 </div>
-    
+
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="services-card services-card-5">
                         <div class="services-icon">
@@ -287,7 +196,7 @@
                         <p class="services-description">Planning, developing, and managing content that aligns with your business goals and audience needs.</p>
                     </div>
                 </div>
-    
+
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="services-card services-card-6">
                         <div class="services-icon">
@@ -299,7 +208,6 @@
                 </div>
             </div>
         </div>
-    
     </section>
 
     <!-- Experience Section -->
@@ -485,15 +393,56 @@
         </div>
     </section>
 
-    <section class="cta-section">
+    <section class="cta- cta-section">
+        <div class="cta-  floating-elements">
+            <div class="floating-circle"></div>
+            <div class="floating-circle"></div>
+            <div class="floating-circle"></div>
+        </div>
+        
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold mb-3 text-white">Ready to transform your Industry?</h2>
-                    <p class="lead mb-0 text-white">Join hundreds of manufacturing Industries who trust Generative AI solutions for their productions.</p>
+                    <div class="cta- cta-content">
+                        <h2 class="cta- cta-title">
+                            Ready to Transform Your Industry?
+                        </h2>
+                        <p class="cta- cta-subtitle">
+                            Join hundreds of manufacturing industries who trust our cutting-edge Generative AI solutions to revolutionize their production processes and drive unprecedented growth.
+                        </p>
+                        
+                        <div class="cta- stats-container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="cta- stat-item">
+                                        <span class="cta- stat-number">500+</span>
+                                        <span class="cta- stat-label">Companies</span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="cta- stat-item">
+                                        <span class="cta- stat-number">98%</span>
+                                        <span class="cta- stat-label">Success Rate</span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="cta- stat-item">
+                                        <span class="cta- stat-number">24/7</span>
+                                        <span class="cta- stat-label">Support</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 text-lg-end">
-                    <button class="btn btn-light btn-lg"><a href="https://vmosesr.github.io/tsuad-hubs/" style="text-decoration: none;">VISIT WEBSITE</a></button>
+                
+                <div class="col-lg-4 text-lg-end text-center">
+                    <button class="cta- cta-button">
+                        <a href="https://vmosesr.github.io/tsuad-hubs/">
+                            <i class="fas fa-rocket me-2"></i>
+                            Visit Website
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>
