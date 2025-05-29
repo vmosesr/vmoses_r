@@ -288,6 +288,10 @@ body {
         display: none;
     }
 
+    .hero-right{
+        display: none;
+    }
+
     .mobile-menu-btn {
         display: block;
     }
@@ -322,6 +326,12 @@ body {
         justify-content: center;
         margin-top: 2rem;
         transform: none;
+    }
+
+    .skill-item span{
+        display: none;
+    }.skill-item{
+        padding: 0.5rem;
     }
 }
 
@@ -373,13 +383,13 @@ body {
 
 .experience-header {
     text-align: center;
-    margin: 5rem;
 }
 
 .experience-header h2 {
-    font-size: 2rem;
+    font-size: 3em;
+    font-weight: 700;
     margin-bottom: 2rem;
-    color: #00a87c;
+    color: var(--text-secondary);
 }
 
 .experience-header p {
@@ -387,6 +397,7 @@ body {
     color: #4a5568;
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 1.5rem;
 }
 
 .experience-container {
@@ -860,6 +871,10 @@ body {
 
     .services-section {
         padding: 3rem 0;
+    }
+
+    .experience-section{
+        padding-top: 0;
     }
 }
 
